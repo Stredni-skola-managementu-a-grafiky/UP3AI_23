@@ -1,0 +1,1 @@
+Toto je pro logo AHOJ!
