@@ -1,4 +1,3 @@
-
 <!--Oddíl se speciálními produktty na hlavní stránce-->
 <div class="tentent-box-special-offer"></div>
 <!--Speciální produkt na hlavní stránce-->
