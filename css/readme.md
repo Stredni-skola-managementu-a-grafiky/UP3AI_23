@@ -1,0 +1,1 @@
+Slozka slouzi pro css soubory.
