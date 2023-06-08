@@ -2,8 +2,20 @@
     <img class="logo" src="page/img/logo.png" alt="logo">
     <div class="container-box">
 
+<<<<<<<< HEAD:php/nav/nav.php
         <a class="search-a" href=https://www.w3schools.com/css/css3_object-fit.asp>
             <img src="../../images/nav/search.png" width="35px">
+========
+        <div class="searchBox">
+
+            <input class="searchInput" type="text" name="text" placeholder="Search">
+            <button class="searchButton" href="#" type="submit">
+                <i class="material-icons">
+                    <img src="page/img/search.png" width="35px">
+                </i>
+            </button>
+        </div>
+>>>>>>>> a81f6caa62b46bb367ed7e8148b55bab4bba0074:php/nav/menu.php
         </a>
         <a class="panak-a" href=https://www.w3schools.com/css/css3_object-fit.asp>
             <img src="../../images/nav/panak.png" width="35px">
