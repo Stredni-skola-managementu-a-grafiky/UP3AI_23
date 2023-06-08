@@ -1,0 +1,205 @@
+
+body {
+    background-color: rgb(232, 227, 227);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .red {
+    background-color: gray;
+  }
+  
+  .green {
+    background-color: gray;
+  }
+  
+  .blue {
+    background-color: gray;
+  }
+  
+  .yellow {
+    background-color: gray;
+  }
+  
+  .orange {
+    background-color: gray;
+  }
+  
+  .purple {
+    background-color: gray;
+  }
+  
+  .cyan {
+    background-color: gray;
+  }
+  
+  .pink {
+    background-color: gray;
+  }
+  
+  .gray {
+    background-color: gray;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    position: relative;
+    width: 500px;
+    height: 190px;
+    margin: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-container {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .btn,
+  .btn2 {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 12px;
+    background: #d9d9d9;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 170px;
+    height: 32px;
+    font-family: Quicksand;
+
+  }
+  
+  .box1 {
+    display: inline-block;
+    border-radius: 12px;
+    background: #d9d9d9;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 170px;
+    height: 32px;
+  }
+  
+  .btn:hover,
+  .btn2:hover {
+    background-color: #262926;
+  }
+  
+  .box2 {
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+
+
+  }
+
+  .box3 {
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+    
+
+  }
+  .box4 {
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+    
+
+  }
+  .box5{
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+    
+
+  }
+
+
+  .box6{
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+    
+
+  }
+
+  .box7{
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+    
+
+  }
+  .box8{
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+    
+
+  }
+  .box9{
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+    
+
+  }
+  .box0{
+
+    cursor: pointer;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(105, 101, 101);
+
+
+  }
+.box1{
+    display: flex;
+align-items: center;
+justify-content: center;
+color: #262926;
+font-family: Quicksand;
+}
