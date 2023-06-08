@@ -1,12 +1,11 @@
 <div class="menu">
-    <img class="logo" src="page/img/logo.png" alt="logo">
+    <img class="logo" src="../images/logo/logo.png" alt="logo">
     <div class="container-box">
         <div class="searchBox">
-
             <input class="searchInput" type="text" name="text" placeholder="Search">
             <button class="searchButton" href="#" type="submit">
                 <i class="material-icons">
-                    <img src="page/img/search.png" width="35px">
+                    <img src="../images/nav/search.png" width="35px">
                 </i>
             </button>
         </div>
