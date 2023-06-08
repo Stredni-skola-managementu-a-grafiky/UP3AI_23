@@ -2,8 +2,15 @@
     <img class="logo" src="page/img/logo.png" alt="logo">
     <div class="container-box">
 
-        <a class="search-a" href=https://www.w3schools.com/css/css3_object-fit.asp>
-            <img src="page/img/search.png" width="35px">
+        <div class="searchBox">
+
+            <input class="searchInput" type="text" name="text" placeholder="Search">
+            <button class="searchButton" href="#" type="submit">
+                <i class="material-icons">
+                    <img src="page/img/search.png" width="35px">
+                </i>
+            </button>
+        </div>
         </a>
         <a class="panak-a" href=https://www.w3schools.com/css/css3_object-fit.asp>
             <img src="page/img/panak.png" width="35px">
