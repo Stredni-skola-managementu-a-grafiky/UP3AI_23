@@ -14,11 +14,11 @@
 
 <body>
     <!-- header -->
-    <?php include "./php/nav/menu.php"; ?>
+    <?php include "./php/nav/nav.php"; ?>
     <!-- speciální nabídka -->
-    <?php include "./php/specialni_nabidka.php"; ?>
+    <?php include "./php/index/specialni_nabidka.php"; ?>
     <!-- main nabídka -->
-    <?php include "./php/nabidka.php"; ?>
+    <?php include "./php/index/nabidka.php"; ?>
     <!-- footer -->
 </body>
 
