@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #AEAEAE;
+  height: 100vh;
+  gap: 50px; 
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px; 
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container .title {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.textbox {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #D9D9D9;
+  padding: 5px;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #D9D9D9;
+  color: #000000;
+  cursor: pointer;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 18px;
+  text-align: left;
+}
+
+.title-special {
+  font-size: 14px;
+  color: white;
+}
+
+.popis-produktu {
+  height: 100px; /* Adjust the height as desired */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+
+
+  body {
+    background-color: #ffffff;
+  
+  font-family: 'Quicksand', sans-serif;
+}
