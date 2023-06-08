@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- header -->
-
+    <?php include "./php/nav/nav.php"; ?> 
     <!-- speciální nabídka -->
     <?php include "./php/specialni_nabidka.php"; ?>
     <!-- main nabídka -->
