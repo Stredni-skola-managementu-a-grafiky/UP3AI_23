@@ -1,6 +1,4 @@
 <?php
-
-
 $servername = "ita03.vas-server.cz";
 
 $username = "kdestosehnal_cz";

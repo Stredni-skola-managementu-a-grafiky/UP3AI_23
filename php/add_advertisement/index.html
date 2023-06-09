@@ -1,37 +1,55 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="cs">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device=width, intial-scale=1.0"
-    <html lang="cs">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KdeStoSehnal</title>
+
     <link rel="stylesheet" href="style.css">
 
-
-
-  <title>KdeStoSehnal</title>
- 
-</head>
-<body>
-  <div class="container">
-    <div class="form-container">
-      <h2 class="title">Vytváříte nový inzerát:</h2>
-      <input type="text" name="název" placeholder="Název" class="textbox">
-      <input type="text" name="popis" placeholder="Popis produktu" class="textbox popis-produktu">
-      <input type="text" name="kontakt" placeholder="Kontakt" class="textbox">
-      <input type="text" name="cena" placeholder="Cena" class="textbox" oninput="restrictToKoruna(this)">
-      <input type="text" name="kategorie" placeholder="Vyberte kategorii" class="textbox">
-    </div>
-    <div class="image-container">
-      <h2 class="title">Přidat přílohu:</h2>
-      <img src="placeholder car.png" alt="Example Image" class="image">
-      <h2 class="title title-special">Polozka bude vystavena na tyden</h2>
-      <button type="button" name="button" class="button">Submit</button>
-    </div>
-  </div>
-</body>
 </html>
 
+<body>
 
+  <div class="container">
 
+    <div class="form-container">
 
+      <h1 class="title">Vytváříte nový inzerát:</h1>
+
+      <input type="text" name="název" placeholder="Název (max16znaků)" class="textbox">
+
+      <input type="text" name="popis" placeholder="Popis produktu" class="textbox popis-produktu">
+
+      <input type="text" name="kontakt" placeholder="Kontakt" class="textbox">
+
+      <input type="text" name="cena" placeholder="Cena" class="textbox" oninput="restrictToKoruna(this)">
+
+      <input type="text" name="kategorie" placeholder="Vyberte kategorii" class="textbox">
+
+    </div>
+
+    <div class="image-container">
+
+      <h2 class="add">Přidat přílohu:</h2>
+
+      <img src="placeholder car.png" alt="Example Image" class="image">
+
+      <h3 class="title-special">Položka bude vystavena na týden</h3>
+
+      <button type="button" name="button" class="button">Přidat inzerát</button>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
