@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 function getAdvertisment(){
     // Database connection
     require "php/db/database_log.php";
@@ -28,7 +27,6 @@ function getAdvertisment(){
             "place" => $place,
             "text" => $text,
             "name" => $name,
-            "timeRemaining" => $timeRemaining
         );
     }
 
@@ -38,23 +36,23 @@ function getAdvertisment(){
     return $Advertisment_array;
 } 
     function createSpecialAdvertisment($advert) {
-        echo "<div class='tentent'>
-        <img src='../../images/index/mustang.png'> <!--obrázek produktu-->
-        <h6>" . $advert["name"] . "</h6>
-        <h6><!-- cena produktu --></h6>
-        <h6 class=addtofavorite>♥</h6>
-    </div>";
+        echo 
+        //přídat href odkaz na item stránku s get požadavkem
+        "<a href='/php/item_details/?id=" . $advert["id"]. "' class='item'>
+            <img src='../../images/index/mustang.png' class='item-img'>
+            <div class='item-description'>
+                <div class='item-name'>" . $advert["name"] . "</div>
+                <div class='item-price'>" . $advert["price"]. " </div>
+                <p class='item-like'>♥</p>
+            </div>
+        </a>";
     }
     $special_array = getAdvertisment();
-    
 ?>
+<?php foreach (range(0,2) as $num){
+    createSpecialAdvertisment($special_array[$num]);
+} ?>
 
-<!--oddíl se speciálními produktty na hlavní stránce-->
-<div class="tentent-box-special-offer"></div>
-<!--speciální produkt na hlavní stránce-->
-    <?php foreach (range(0,2) as $num){
-        createSpecialAdvertisment($special_array[$num]);
-    }?>
-<!-- konec speciálního produktu na hlavní stránce-->
-</div>
-<!-- konec oddílu se speciálními produktty na hlavní stránce-->
+
+
+

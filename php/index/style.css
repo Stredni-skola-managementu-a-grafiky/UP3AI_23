@@ -14,7 +14,12 @@ main img {
     align-items: center;
     margin: 50px 0;
 }
-
+main > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .tentent {
     border: solid;
     border: 1px;
